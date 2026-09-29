@@ -3,3 +3,6 @@ variables:
   - key: json_web_token_15yr
     secret: true
     disabled: false
+  - key: json_web_token_13yz
+    secret: true
+    disabled: false

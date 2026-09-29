@@ -1,3 +1,4 @@
+
 from django.db import models
 from django.conf import settings
 from products.models import Product
@@ -13,5 +14,8 @@ class CartItem(models.Model):
     quantity=models.PositiveBigIntegerField(default=1)
     def _str_(self):
         return f"{self.products.name} ({self.quantity})"
+
+
+
 
 
